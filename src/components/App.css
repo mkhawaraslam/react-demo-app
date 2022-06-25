@@ -1,3 +1,16 @@
 .add-contact-block {
   margin-top: 50px;
 }
+
+.list-card {
+  display: flex !important;
+}
+
+.card-content {
+  flex: 1;
+}
+
+.trash-btn {
+  align-self: center;
+  color: red;
+}
