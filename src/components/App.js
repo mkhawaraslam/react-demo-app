@@ -1,8 +1,16 @@
+import React from 'react';
 import './App.css';
+import Header from './Header';
+import AddContact from './AddContact';
+import AddContactList from './ContactList';
 
 function App() {
   return (
-    <h1>App page</h1>
+    <div>
+      <Header />
+      <AddContact />
+      <AddContactList />
+    </div>
   );
 }
 
